@@ -23,7 +23,7 @@ everyone to use and enhances together.
 ```
 ~/.config/nvim/
 ├── init.lua                   # Entry point
-└── src/                       # All Lua source code
+└── lua/                       # All Lua source code
     ├── options.lua            # General options (e.g., vim.opt)
     ├── keymaps.lua            # Global keybindings
     ├── settings.lua           # Settings definition (filetytes for LSP)
