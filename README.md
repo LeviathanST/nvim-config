@@ -20,14 +20,14 @@ everyone to use and enhances together.
     - Keymaps
 
 # Structure
+```
 ~/.config/nvim/
 ├── init.lua                   # Entry point
 └── src/                       # All Lua source code
-    ├── core/                  # Core Neovim settings
-    │   ├── options.lua        # General options (e.g., vim.opt)
-    │   ├── keymaps.lua        # Global keybindings
-    │   ├── settings.lua       # Settings definition (filetytes for LSP)
-    │   └── colorsheme.lua     # Colorscheme setup
+    ├── options.lua            # General options (e.g., vim.opt)
+    ├── keymaps.lua            # Global keybindings
+    ├── settings.lua           # Settings definition (filetytes for LSP)
+    ├── colorsheme.lua         # Colorscheme setup
     ├── plugins/               # Plugin management
     │   ├── lsp/               # Plugins and setup for LSP
     │   │    ├── lspconfig.lua 
@@ -39,6 +39,7 @@ everyone to use and enhances together.
         ├── lang.lua           # All language definitions
         ├── lsp.lua            # General LSP config (capabilities, on_attach)
         └── lua.lua            # Lua LSP (lua-language-server)
+```
 # Which technology ecosystem I use this with
 - Lua:
     - Neovim config
