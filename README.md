@@ -12,12 +12,10 @@ everyone to use and enhances together.
 - Filesystem sidebar [NeoTree](https://github.com/nvim-neo-tree/neo-tree.nvim)
 - Plugin manager [LazyNvim](https://github.com/folke/lazy.nvim)
 - Formatter [Conform](https://github.com/stevearc/conform.nvim)
-- Completion [nvim-cmp](https://github.com/hrsh7th/nvim-cmp):
-    - LSP [cmp-nvim-lsp](https://github.com/hrsh7th/cmp-nvim-lsp)
-    - Path [cmp-path](https://github.com/hrsh7th/cmp-path)
-- Fuzzy Finder [Telescope](https://github.com/nvim-telescope/telescope.nvim):
-    - Files
-    - Keymaps
+- LSP completion [blink.cmp](https://github.com/Saghen/blink.cmp)
+- Fuzzy finder with beautiful UI [Snacks ecosystem](https://github.com/folke/snacks.nvim)
+- Smooth scrolling [Neoscroll](https://github.com/karb94/neoscroll.nvim)
+- Indent [Snacks.indent](https://github.com/folke/snacks.nvim/blob/main/docs/indent.md)
 # Structure
 ```
 ~/.config/nvim/
@@ -42,8 +40,6 @@ everyone to use and enhances together.
 # Which technology ecosystem I use this with
 - Lua:
     - Neovim config
-# TODO
-- Statusline
 # References
 A beauty config neovim from scratch: 
 - [config1](https://github.com/Nguyen-Hoang-Nam/nvim-dotfiles-kitty)
