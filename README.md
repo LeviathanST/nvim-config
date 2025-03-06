@@ -15,10 +15,9 @@ everyone to use and enhances together.
 - Completion [nvim-cmp](https://github.com/hrsh7th/nvim-cmp):
     - LSP [cmp-nvim-lsp](https://github.com/hrsh7th/cmp-nvim-lsp)
     - Path [cmp-path](https://github.com/hrsh7th/cmp-path)
-- Search [Telescope](https://github.com/nvim-telescope/telescope.nvim):
+- Fuzzy Finder [Telescope](https://github.com/nvim-telescope/telescope.nvim):
     - Files
     - Keymaps
-
 # Structure
 ```
 ~/.config/nvim/
@@ -44,6 +43,7 @@ everyone to use and enhances together.
 - Lua:
     - Neovim config
 # TODO
+- Statusline
 # References
 A beauty config neovim from scratch: 
 - [config1](https://github.com/Nguyen-Hoang-Nam/nvim-dotfiles-kitty)
