@@ -1,7 +1,8 @@
 return {
-	lsp_config = {
-		filetypes = {
-			"lua",
-		},
-	},
+  lsp_config = {
+    filetypes = {
+      "lua",
+      "c",
+    },
+  },
 }
