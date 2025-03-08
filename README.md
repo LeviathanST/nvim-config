@@ -40,6 +40,7 @@ everyone to use and enhances together.
 # Which technology ecosystem I use this with
 - Lua:
     - Neovim config
+- C
 # References
 A beauty config neovim from scratch: 
 - [config1](https://github.com/Nguyen-Hoang-Nam/nvim-dotfiles-kitty)
