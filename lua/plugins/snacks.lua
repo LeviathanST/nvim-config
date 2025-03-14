@@ -55,11 +55,11 @@ return {
     },
     --- NOTE: LSP
     {
-      "gd",
+      "gr",
       function()
-        Snacks.picker.lsp_definitions()
+        Snacks.picker.lsp_references()
       end,
-      desc = "Goto Definition",
+      desc = "Goto References",
     },
   },
 }
