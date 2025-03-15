@@ -1,0 +1,4 @@
+return {
+  "TaDaa/vimade",
+  opts = {},
+}
