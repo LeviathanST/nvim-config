@@ -6,4 +6,9 @@ return {
       "md",
     },
   },
+  dap_config = {
+    filetypes = {
+      "c",
+    },
+  },
 }
