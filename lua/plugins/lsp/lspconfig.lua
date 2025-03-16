@@ -25,9 +25,8 @@ return {
         },
       })
 
-      local settings = require("settings")
       local setting_languages = require("lang.lang")
-      local settings_lspconfig = settings.lsp_config
+      local settings_lspconfig = require("settings").lsp_config
 
       local filetypes = settings_lspconfig.filetypes
 
