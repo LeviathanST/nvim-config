@@ -9,7 +9,9 @@ return {
     local dap_settings = require("settings").dap_config
     local filetypes = dap_settings.filetypes
 
-    local dap, dapui = require("dap"), require("dapui")
+    local dap = require("dap")
+    local dapui = require("dapui")
+
     local map = vim.keymap.set
 
     dapui.setup()
@@ -34,7 +36,6 @@ return {
 
     map("n", "<leader>dt", "<Cmd>lua require'dap'.toggle_breakpoint()<CR>", { noremap = true })
     map("n", "<leader>dc", "<Cmd>lua require'dap'.continue()<CR>", { noremap = true })
-    map("n", "<leader>dn", "<Cmd>lua require'dap'.step_over()<CR>", { noremap = true })
-    map("n", "<leader>dN", "<Cmd>lua require'dap'.step_into()<CR>", { noremap = true })
+    map("n", "<leader>dT", "<Cmd>lua require'dap'.terminate()<CR>", { noremap = true })
   end,
 }
