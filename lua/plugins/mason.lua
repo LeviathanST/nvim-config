@@ -7,6 +7,7 @@ return {
         "lua_ls", --- lua
         "marksman", --- markdown
         "clangd", --- c/c++
+        "kotlin_language_server", --- Kotlin
       },
     },
   },
@@ -15,6 +16,15 @@ return {
     opts = {
       ensure_installed = {
         "codelldb",
+      },
+    },
+  },
+  {
+    "zapling/mason-conform.nvim",
+    opts = {
+      ensure_installed = {
+        "stylua",
+        "clang_format",
       },
     },
   },
