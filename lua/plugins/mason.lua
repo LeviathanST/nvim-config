@@ -8,6 +8,7 @@ return {
         "marksman", --- markdown
         "clangd", --- c/c++
         "kotlin_language_server", --- Kotlin
+        "sqls", --- SQL
       },
     },
   },

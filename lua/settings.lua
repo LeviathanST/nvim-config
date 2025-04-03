@@ -5,6 +5,7 @@ return {
       "c",
       "kotlin", -- Kotlin
       "md",
+      "sql",
     },
   },
   dap_config = {
