@@ -9,6 +9,8 @@ return {
         "clangd", --- c/c++
         "kotlin_language_server", --- Kotlin
         "sqls", --- SQL
+        "ts_ls", --- TS/JS
+        "svelte", --- Svelte
       },
     },
   },

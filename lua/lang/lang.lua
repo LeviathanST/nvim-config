@@ -4,4 +4,6 @@ return {
   kotlin = require("lang.kotlin"),
   md = require("lang.md"),
   sql = require("lang.sql"),
+  ts = require("lang.ts"),
+  svelte = require("lang.svelte"),
 }
