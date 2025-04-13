@@ -24,7 +24,6 @@ everyone to use and enhances together.
     ├── options.lua            # General options (e.g., vim.opt)
     ├── keymaps.lua            # Global keybindings
     ├── settings.lua           # Settings definition (filetytes for LSP)
-    ├── colorsheme.lua         # Colorscheme setup
     ├── plugins/               # Plugin management
     │   ├── lsp/               # Plugins and setup for LSP
     │   │    ├── lspconfig.lua 
@@ -41,6 +40,8 @@ everyone to use and enhances together.
 - Lua:
     - Neovim config
 - C
+- Kotlin (My current LSP sucks)
+- Svelte
 # References
 A beauty config neovim from scratch: 
 - [config1](https://github.com/Nguyen-Hoang-Nam/nvim-dotfiles-kitty)
