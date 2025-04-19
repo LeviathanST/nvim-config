@@ -1,7 +1,13 @@
 return {
   "folke/snacks.nvim",
   opts = {
+    input = {
+      enabled = true,
+    },
     indent = {
+      enabled = true,
+    },
+    notifier = {
       enabled = true,
     },
     animate = {
@@ -47,11 +53,11 @@ return {
       desc = "Toggle Terminal",
     },
     {
-      "<leader>gg",
+      "E",
       function()
-        Snacks.lazygit()
+        Snacks.explorer.open()
       end,
-      desc = "Lazygit",
+      desc = "Toggle Terminal",
     },
     --- NOTE: LSP
     {
