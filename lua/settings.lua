@@ -3,11 +3,12 @@ return {
     filetypes = {
       "lua",
       "c",
-      "kotlin", -- Kotlin
+      "kotlin",
       "md",
       "sql",
       "ts",
       "svelte",
+      "zig",
     },
   },
   dap_config = {

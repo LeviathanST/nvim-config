@@ -2,7 +2,7 @@ return {
   "nvim-treesitter/nvim-treesitter",
   build = ":TSUpdate",
   opts = {
-    ensure_installed = { "lua", "c", "markdown", "kotlin", "svelte", "css", "html" },
+    ensure_installed = { "lua", "c", "markdown", "kotlin", "svelte", "css", "html", "zig" },
     highlight = {
       enable = true,
       additional_vim_regex_highlighting = false,

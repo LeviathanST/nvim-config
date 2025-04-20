@@ -6,4 +6,5 @@ return {
   sql = require("lang.sql"),
   ts = require("lang.ts"),
   svelte = require("lang.svelte"),
+  zig = require("lang.zig"),
 }

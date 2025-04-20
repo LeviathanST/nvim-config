@@ -11,6 +11,7 @@ return {
         "sqls", --- SQL
         "ts_ls", --- TS/JS
         "svelte", --- Svelte
+        "zls", --- Zig
       },
     },
   },
