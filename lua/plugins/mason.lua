@@ -5,13 +5,12 @@ return {
     opts = {
       ensure_installed = {
         "lua_ls", --- lua
-        "marksman", --- markdown
         "clangd", --- c/c++
         "kotlin_language_server", --- Kotlin
         "sqls", --- SQL
         "ts_ls", --- TS/JS
         "svelte", --- Svelte
-        "zls", --- Zig
+        -- "zls"  Mason cannot use dev-version for ZLS, so I use zvm instead
       },
     },
   },
