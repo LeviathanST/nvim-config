@@ -52,13 +52,6 @@ return {
       end,
       desc = "Toggle Terminal",
     },
-    {
-      "E",
-      function()
-        Snacks.explorer.open()
-      end,
-      desc = "Toggle Terminal",
-    },
     --- NOTE: LSP
     {
       "gr",
