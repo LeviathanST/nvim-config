@@ -26,8 +26,8 @@ everyone to use and enhances together.
     ├── settings.lua           # Settings definition (filetytes for LSP)
     ├── plugins/               # Plugin management
     │   ├── lsp/               # Plugins and setup for LSP
-    │   │    ├── lspconfig.lua 
-    │   │    └── mason.lua     
+    │   │    └── lspconfig.lua     
+    │   ├──  mason.lua         # LSP, DAP installer
     │   └── ...                # All plugins
     ├── user/                  # Personal setup
     │   └── colorschemes/      # All colorschemes
@@ -42,7 +42,8 @@ everyone to use and enhances together.
 - C
 - Kotlin (My current LSP sucks)
 - Svelte
+- Zig
 # References
-A beauty config neovim from scratch: 
+Beauty neovim configs from scratch: 
 - [config1](https://github.com/Nguyen-Hoang-Nam/nvim-dotfiles-kitty)
 - [config1](https://github.com/caarlos0/dotfiles)
