@@ -9,6 +9,7 @@ return {
       "ts",
       "svelte",
       "zig",
+      "http",
     },
   },
   dap_config = {

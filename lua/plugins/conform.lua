@@ -9,6 +9,7 @@ return {
         kotlin = { "ktlint" },
         css = { "prettier" },
         html = { "prettier" },
+        http = { "kulala-fmt" },
       },
       format_on_save = {
         lsp_format = "fallback",
