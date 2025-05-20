@@ -2,7 +2,7 @@ return {
   {
     "neovim/nvim-lspconfig",
     dependencies = {
-      "saghen/blink.cmp",
+      { "saghen/blink.cmp", build = "cargo build --release" },
       {
         "folke/lazydev.nvim",
         ft = "lua",
@@ -13,6 +13,7 @@ return {
     },
     config = function()
       local lspconfig = require("lspconfig")
+      local configs = require("lspconfig.configs")
 
       require("blink.cmp").setup({
         fuzzy = {
@@ -29,6 +30,17 @@ return {
       local settings_lspconfig = require("settings").lsp_config
 
       local filetypes = settings_lspconfig.filetypes
+
+      -- if not configs.minizls then
+      --   configs.minizls = {
+      --     default_config = {
+      --       cmd = { "/home/leviathanst/workspaces/zig/mini-zls/zig-out/bin/tiny_zls" },
+      --       root_dir = lspconfig.util.root_pattern("build.zig"),
+      --       filetypes = { "zig" },
+      --     },
+      --   }
+      -- end
+      -- lspconfig.minizls.setup({})
 
       ---- Loading LSP which is contained in setting
       for _, filetype in ipairs(filetypes) do
