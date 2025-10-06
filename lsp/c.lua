@@ -1,11 +1,9 @@
-local lsp = require("lang.lsp")
+local lsp = require("util")
 
 return {
   lsp_server = "clangd",
-  lsp = {
-    on_attach = lsp.on_attach,
-    capabilities = lsp.capabilities,
-  },
+  on_attach = lsp.on_attach,
+  capabilities = lsp.capabilities,
   dap = "codelldb",
   dap_config = {
     dap = {

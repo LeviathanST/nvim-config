@@ -14,6 +14,7 @@ M.on_attach = function(client, bufnr)
   buf_set_keymap("n", "gD", "<Cmd>lua vim.lsp.buf.declaration()<CR>")
   buf_set_keymap("n", "K", "<Cmd>lua require('pretty_hover').hover()<CR>")
   buf_set_keymap("n", "<leader>rn", "<Cmd>lua vim.lsp.buf.rename()<CR>")
+  buf_set_keymap("n", "<leader>f", "<Cmd>lua vim.lsp.buf.code_action()<CR>")
 end
 M.capabilities = require("blink.cmp").get_lsp_capabilities()
 return M

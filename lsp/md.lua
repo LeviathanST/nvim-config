@@ -1,6 +1,6 @@
-local lsp = require("lang.lsp")
+local lsp = require("util")
 return {
-  lsp_server = "marksman",
+  cmd = { "marksman" },
   lsp = {
     on_attach = lsp.on_attach,
     capabilities = lsp.capabilities,
