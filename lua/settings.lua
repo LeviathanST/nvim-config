@@ -10,6 +10,7 @@ return {
       "svelte",
       "zig",
       "http",
+      "nix",
     },
   },
   dap_config = {
