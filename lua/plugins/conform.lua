@@ -10,6 +10,7 @@ return {
         css = { "prettier" },
         html = { "prettier" },
         http = { "kulala-fmt" },
+        python = { "ruff_format", "ruff_organize_import" },
       },
       format_on_save = {
         lsp_format = "fallback",

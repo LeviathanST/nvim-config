@@ -4,6 +4,7 @@ return {
   lsp_server = "clangd",
   on_attach = lsp.on_attach,
   capabilities = lsp.capabilities,
+  filetypes = { "c" },
   dap = "codelldb",
   dap_config = {
     dap = {

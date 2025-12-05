@@ -6,11 +6,10 @@ return {
       ensure_installed = {
         "lua_ls", --- lua
         "clangd", --- c/c++
-        "kotlin-language-server", --- Kotlin
         "sqls", --- SQL
-        "ts_ls", --- TS/JS
-        "svelte-language-server", --- Svelte
-        -- "zls"  Mason cannot use dev-version for ZLS, so I use zvm instead
+        "basedpyright", --- python lsp
+        "ruff", --- python linter, formatter
+        "superhtml",
       },
     },
   },

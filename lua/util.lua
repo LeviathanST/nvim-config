@@ -12,6 +12,7 @@ M.on_attach = function(client, bufnr)
 
   buf_set_keymap("n", "gd", "<Cmd>lua vim.lsp.buf.definition()<CR>")
   buf_set_keymap("n", "gD", "<Cmd>lua vim.lsp.buf.declaration()<CR>")
+  buf_set_keymap("n", "<leader>d", "<Cmd>lua vim.diagnostic.open_float()<CR>")
   buf_set_keymap("n", "K", "<Cmd>lua require('pretty_hover').hover()<CR>")
   buf_set_keymap("n", "<leader>rn", "<Cmd>lua vim.lsp.buf.rename()<CR>")
   buf_set_keymap("n", "<leader>f", "<Cmd>lua vim.lsp.buf.code_action()<CR>")

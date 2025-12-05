@@ -1,6 +1,6 @@
 local opt = vim.opt
 
-vim.diagnostic.config({ virtual_text = true })
+vim.diagnostic.config({ virtual_text = false })
 
 --- NOTE: General
 opt.clipboard = "unnamedplus"

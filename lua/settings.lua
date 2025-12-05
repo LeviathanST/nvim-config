@@ -2,15 +2,18 @@ return {
   lsp_config = {
     filetypes = {
       "lua",
-      "c",
-      "kotlin",
+      -- "kotlin",
       "md",
-      "sql",
+      -- "sql",
+      "html",
       "ts",
-      "svelte",
+      -- "svelte",
       "zig",
-      "http",
+      -- "http",
       "nix",
+      -- "clangd",
+      -- "c",
+      "basedpyright",
     },
   },
   dap_config = {

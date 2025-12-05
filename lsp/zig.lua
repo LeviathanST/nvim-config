@@ -4,13 +4,18 @@ return {
   cmd = { "zls" },
   on_attach = lsp.on_attach,
   capabilities = lsp.capabilities,
-  settings = {
-    inlay_hints_show_parameter_name = true,
-  },
   filetypes = { "zig" },
   root_markers = {
     "build.zig",
     "build.zig.zon",
+  },
+  settings = {
+    ["zls"] = {
+      inlay_hints_show_parameter_name = true,
+      inlay_hints_show_struct_literal_field_type = true,
+      inlay_hints_show_variable_type_hints = true,
+      warn_style = true,
+    },
   },
   -- dap = "codelldb",
   -- dap_config = {
