@@ -29,4 +29,5 @@ require("lazy").setup({
 })
 
 require("core")
+require("autocmds")
 ---- End Lazy setup
