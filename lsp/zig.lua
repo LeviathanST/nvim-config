@@ -15,6 +15,8 @@ return {
       inlay_hints_show_struct_literal_field_type = true,
       inlay_hints_show_variable_type_hints = true,
       warn_style = true,
+      enable_build_on_save = true,
+      build_on_save_step = "check",
     },
   },
   -- dap = "codelldb",

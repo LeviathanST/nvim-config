@@ -3,6 +3,6 @@ return {
   cmd = { "superhtml", "lsp" },
   on_attach = lsp.on_attach,
   capabilities = lsp.capabilities,
-  filetypes = { "html" },
-  root_markers = { ".git" },
+  filetypes = { "html", "superhtml" },
+  root_markers = { "zine.ziggy" },
 }
