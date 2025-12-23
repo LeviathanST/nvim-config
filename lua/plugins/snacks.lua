@@ -11,7 +11,7 @@ return {
       enabled = true,
     },
     animate = {
-      enabled = vim.fn.has("nvim-0.10") == 1,
+      enabled = true,
       style = "out",
       easing = "linear",
       duration = {
@@ -40,7 +40,21 @@ return {
     {
       "<leader>sf",
       function()
-        Snacks.picker.files()
+        Snacks.picker.files({
+          cwd = vim.fn.getcwd(),
+          confirm = function(_, item)
+            local filename = item.text
+            -- any way to open the file without triggering auto-close event of neo-tree?
+            vim.cmd(":Neotree reveal_file=" .. filename)
+            vim.cmd(":edit " .. filename)
+            -- open the file
+            vim.notify(
+              "Open file path: " .. filename,
+              vim.log.levels.INFO,
+              { id = "neotree_opening", title = "Neotree" }
+            )
+          end,
+        })
       end,
       desc = "Find Files",
     },
